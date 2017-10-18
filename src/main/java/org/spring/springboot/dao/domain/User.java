@@ -1,23 +1,24 @@
 package org.spring.springboot.dao.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * Created by ddfhznq on 2017/10/18.
  */
 @Entity
+@Table(name = "user")
 public class User
 {
     @Id
     @GeneratedValue
     private int id;
-
+    @Column(name = "name")
     private String name;
 
+    @Column(name = "description")
     private String description;
 
+    @Column(name = "user_name")
     private String userName;
 
     public int getId()

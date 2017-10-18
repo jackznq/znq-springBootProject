@@ -1,7 +1,7 @@
 package org.spring.springboot.service.impl;
 
 import org.spring.springboot.dao.domain.User;
-import org.spring.springboot.dao.domain.repository.UserRepository;
+import org.spring.springboot.dao.repository.UserRepository;
 import org.spring.springboot.service.UserService;
 import org.springframework.stereotype.Service;
 
