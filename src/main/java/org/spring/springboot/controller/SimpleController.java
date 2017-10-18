@@ -3,7 +3,6 @@ package org.spring.springboot.controller;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -14,11 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class SimpleController
 {
-    @RequestMapping("/")
-    @ResponseBody
+    @RequestMapping("/hello")
     String home()
     {
-        return "Hello333 world!";
+        return "你好";
     }
 
     public static void main(String[] args) throws Exception
