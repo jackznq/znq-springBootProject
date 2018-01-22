@@ -11,6 +11,7 @@
     <modules>
         <module>znq-common</module>
         <module>znq-rpc</module>
+        <module>znq-web</module>
     </modules>
 
     <parent>

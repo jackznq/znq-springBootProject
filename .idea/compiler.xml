@@ -3,19 +3,21 @@
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Eclipse" />
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="znq-rpc" />
+        <module name="znq-web" />
         <module name="znqcommon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="znq-rpc" target="1.8" />
       <module name="znq-springBootProject" target="1.8" />
+      <module name="znq-web" target="1.8" />
       <module name="znqcommon" target="1.8" />
-      <module name="znqspringBootProject" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/znq-rpc/znq-rpc.iml" filepath="$PROJECT_DIR$/znq-rpc/znq-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/znq-springBootProject.iml" filepath="$PROJECT_DIR$/znq-springBootProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/znq-web/znq-web.iml" filepath="$PROJECT_DIR$/znq-web/znq-web.iml" />
+      <module fileurl="file://E:\intelij\znqspringBootProject\znq-web\znq-web.iml" filepath="E:\intelij\znqspringBootProject\znq-web\znq-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/znq-common/znqcommon.iml" filepath="$PROJECT_DIR$/znq-common/znqcommon.iml" />
     </modules>
   </component>
