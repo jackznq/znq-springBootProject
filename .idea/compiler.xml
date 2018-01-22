@@ -7,10 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="znqspringBootProject" />
+        <module name="znq-rpc" />
+        <module name="znqcommon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
+      <module name="znq-rpc" target="1.8" />
+      <module name="znq-springBootProject" target="1.8" />
+      <module name="znqcommon" target="1.8" />
       <module name="znqspringBootProject" target="1.8" />
     </bytecodeTargetLevel>
   </component>

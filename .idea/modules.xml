@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/znqspringBootProject.iml" filepath="$PROJECT_DIR$/znqspringBootProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/znq-rpc/znq-rpc.iml" filepath="$PROJECT_DIR$/znq-rpc/znq-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/znq-springBootProject.iml" filepath="$PROJECT_DIR$/znq-springBootProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/znq-common/znqcommon.iml" filepath="$PROJECT_DIR$/znq-common/znqcommon.iml" />
     </modules>
   </component>
 </project>
